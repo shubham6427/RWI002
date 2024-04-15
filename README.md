@@ -1,2 +1,4 @@
-# B-2-T-3_OMS
-Project on Order Management System
+# Control Statement practice
+Odd Even Check
+If Else statement
+Switch Statement
