@@ -13,7 +13,7 @@ class MultiThreading extends Thread {
 
     public static void main(String[] args) {
         MultiThreading m = new MultiThreading();
-        m.run();
+        // m.run();
 
         m.start();
     }
