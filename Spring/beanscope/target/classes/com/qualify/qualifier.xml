@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd 
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+
+<context:annotation-config/>
+
+	<bean class="com.qualify.Shop" name="shop">
+	<property name ="shopNo" value="902" />
+    <property name ="shopName" value="Gurukripa Traders" />
+    
+	</bean>
+
+	<bean class="com.qualify.Customer" name="Rahul" >
+	<property name ="customerName" value="Rahul" />
+    <property name ="creaditValue" value="2209" />
+    <property name ="customerAddress" value="Vijaynagar" />
+	</bean>
+	
+	<bean class="com.qualify.Customer" name="Rakesh" >
+	<property name ="customerName" value="Rakesh" />
+    <property name ="creaditValue" value="5209" />
+    <property name ="customerAddress" value="LIG" />
+	</bean>
+	
+	<bean class="com.qualify.Customer" name="Shubham" >
+	<property name ="customerName" value="Shubham" />
+    <property name ="creaditValue" value="1910" />
+    <property name ="customerAddress" value="Rewa" />
+	</bean>
+</beans>
+ 
+ 
